@@ -20,7 +20,7 @@ $(document).on('click', '.change_status', function () {
         type: "post",
         data:'id=' + id,
         success: function(data) {
-            // location.reload();
+            location.reload();
         }
     });
 });
