@@ -1,0 +1,44 @@
+.wrapper {
+    min-height:100%;
+    width:100%;
+    position:relative;
+    display:inline-block;
+}
+
+.sidebar {
+    width:20%;
+    top:0;
+    left:0;
+    bottom:0;
+    padding: 20px;
+    position:absolute;
+    background-color: #f1f1f1;
+}
+
+.content {
+    min-height:500px;
+    width:80%;
+    position:relative;
+    float:right;
+    padding: 20px;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-actions .btn {
+    margin-right: 10px;
+}
